@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type=text/css href="../static/style.css">
+    <title>Movie Recommendation and Review</title>
+</head>
+<body class="indexbody">   
+    <div class="indexdiv"> 
+        <h1>Welcome to your personal movie guide!</h1>    
+        <h2>Explore recommendations and get reviews to share with your community</h2> 
+        <form action="/recommendation" method="GET">
+            
+            <button type="submit" class="btn">Get Recommendations</button>
+        </form>
+        <form action="/rating" method="GET">
+            <input type="text" name="title" placeholder="Enter a movie name to get rating"
+            <button type="submit" class="btn"></button>
+           
+        </form>
+        <form action="/giph" method="GET">
+            <button type="submit" class="btn">Click here for a movie GIF!</button>
+        </form>
+        
+    </div>   
+</body>
+</html>
+

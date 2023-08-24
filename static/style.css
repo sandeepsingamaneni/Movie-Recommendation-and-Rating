@@ -1,0 +1,127 @@
+h1 {
+  text-align: center;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gainsboro;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gainsboro;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gainsboro;
+}
+
+.indexbody { font-family: "Helvetica", sans-serif; font-size: 18px; color: #ffffff; background-image: url('img.png'); background-repeat: no-repeat;   background-attachment: fixed;
+background-size: cover;}
+
+.indexdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  margin-top: 40px;
+  
+  
+  font-weight: bold;
+  place-items: center;
+}
+
+.img-div{
+  width:50%;
+  height:50%;
+}
+
+.text-box {
+  height: 40px;
+  width:40%px;
+  border-radius: 5px;
+  border: 2px solid green;
+  background-color: rgb(252, 248, 248);
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  place-items: center;
+}
+.btn {
+  height: 50px;
+  width:350px;
+  border: 2px solid white;
+  background-color: rgb(190, 185, 185);
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 20px;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.btn1 {
+  text-align: center;
+  border-radius: 25px;
+  
+ 
+  height: 25px;
+  width: 50px;
+}
+
+.btn1:hover {
+  color: rgb(43, 150, 162);
+  background-color:rgb(33, 29, 101);
+}
+
+
+.btn:hover {
+  color: rgb(43, 150, 162);
+  background-color:rgb(33, 29, 101);
+}
+
+.movdiv { font-family: "Helvetica", sans-serif; font-size: 18px; color: #ffffff; background-image: url('img.png'); background-repeat: no-repeat;   background-attachment: fixed;
+  background-size: cover;}
+
+.movdiv1 {
+  text-align: center;
+  padding: 15px;
+ 
+  margin-top: auto;
+}
+
+.heading {
+  padding: 20px;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+.mh {
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+
+
+tr:last-child td {
+  border-bottom: none;
+}
+

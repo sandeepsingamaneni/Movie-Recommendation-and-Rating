@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type=text/css href="../static/style.css">
+    <title>Movie Recommendation</title> 
+  </head>
+  <body class ="movdiv">
+    <div class ="movdiv1">
+         
+        <h1>Movie Recommendations by popularity</h1>
+        <h2>Here you go!</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Overview</th>
+              <th>Poster</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for movie in movies %}
+             <tr>
+              <td>{{ movie.title }}</td>
+              <td>{{ movie.overview }}</td>
+              <td><img src="{{ movie.poster_path }}" alt="Movie Poster"></td>
+             </tr>
+            {% endfor %}  
+          </tbody>
+        </table>
+        <h2> Come back here tomorrow for more recommendations</h2>
+    </div>  
+  </body>
+</html>

@@ -1,0 +1,5 @@
+flask
+requests
+gunicorn
+IMDbPY
+tmdbv3api
